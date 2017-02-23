@@ -6,7 +6,7 @@
 var Latay_view = function(model){
   "use strict";
 
-  var $latay_page = $("#latay_page");
+  var $latay_page = $("#content");
 
   (function init(){
     initPage();

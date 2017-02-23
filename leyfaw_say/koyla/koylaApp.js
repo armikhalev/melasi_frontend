@@ -3,9 +3,21 @@
  */
 var KoylaApp = (function () {
     "use strict";
+    var $main = $("#main");
+    var $content = $main.find("#content");
 
     (function init(){
-      initPage();
+
+      $.when(
+          $content.load("templates/koyla_template.html #koyla_page"),
+          $.Deferred(function( deferred ){
+              $( deferred.resolve );
+          })
+      )
+      .done(function(){
+           initPage();
+      });
+
     }());
 
     function initPage(){
