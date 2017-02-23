@@ -10,15 +10,6 @@ var Koyla_view = function(model){
   var $content = $main.find("#content");
   var $translation = $main.find("#translation");
 
-  // (function init(){
-  //   initPage();
-  // }());
-  //
-  // // Self initializing
-  // function initPage(){
-  //     $content.load("templates/koyla_template.html #koyla_page");
-  // }
-
   function translate(wordObj){
 
       var translation;

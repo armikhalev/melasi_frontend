@@ -1,0 +1,30 @@
+.content {
+    position: relative;
+    margin: auto;
+    width: 50%;
+}
+
+.content input[type="text"] {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-size: 30px;
+    color: indianred;
+}
+
+.content .formHeader {
+    color:  mediumblue;
+    margin: 10px 0;
+}
+
+.content .translationDiv {
+    height: 50px;
+    width: 100%;
+    background-color: beige;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+    padding-top: 8%;
+}

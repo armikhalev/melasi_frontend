@@ -1,7 +1,7 @@
 /*
- * View for the basic words cards,
- * renders the data from model
- * by interpreting it as it fits the purpose of the application.
+ * View for the Menu navigation.
+ * Creates buttons and provides method 'getButtonsIds' to get those buttons ids.
+ *
  */
 var Menu_view = function(model){
     "use strict";

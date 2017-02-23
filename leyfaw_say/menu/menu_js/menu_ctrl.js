@@ -1,7 +1,10 @@
 /*
- * Controller for the basic words cards,
- * receives user actions and controls interpretation
- * and logic of the reaction on the user's actions transmitting them to model and view.
+ * Controller for the Menu,
+ * starts the page and creates navigation.
+ *
+ * Dependencies:
+ *      - Loader.js
+ *      - jquery.js
  */
 var Menu_ctrl = function(model,view){
     "use strict";
