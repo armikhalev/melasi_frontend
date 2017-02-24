@@ -15,8 +15,11 @@
 }
 
 .content .formHeader {
-    color:  mediumblue;
-    margin: 10px 0;
+    color: mediumblue;
+    margin: 10px 106px;
+    text-align: center;
+    font-size: large;
+    border-bottom: 1px solid brown;
 }
 
 .content .translationDiv {
@@ -27,4 +30,15 @@
     text-align: center;
     margin-top: 24px;
     padding-top: 8%;
+}
+
+.content .button {
+    margin: 10px 0;
+    background-color: burlywood;
+    padding: 9px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    color: darkcyan;
 }
