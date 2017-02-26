@@ -1,10 +1,10 @@
-.content {
+.koylaPage {
     position: relative;
     margin: auto;
     width: 50%;
 }
 
-.content input[type="text"] {
+.koylaPage input[type="text"] {
     width: 100%;
     height: 50px;
     border-radius: 4px;
@@ -14,7 +14,7 @@
     color: indianred;
 }
 
-.content .formHeader {
+.koylaPage .formHeader {
     color: mediumblue;
     margin: 10px 106px;
     text-align: center;
@@ -22,7 +22,7 @@
     border-bottom: 1px solid brown;
 }
 
-.content .translationDiv {
+.koylaPage .translationDiv {
     height: 50px;
     width: 100%;
     background-color: beige;
@@ -32,7 +32,7 @@
     padding-top: 8%;
 }
 
-.content .button {
+.koylaPage .button {
     margin: 10px 0;
     background-color: burlywood;
     padding: 9px;

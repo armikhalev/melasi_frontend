@@ -7,6 +7,7 @@ var Latay_ctrl = function(model,view){
   "use strict";
 
   var $latay_page = $("#latay_page");
+  var cards = view.getAllCards();
 
   (function init(){
     initPage();
@@ -14,7 +15,13 @@ var Latay_ctrl = function(model,view){
 
   // Self initializing
   function initPage(){
-
+    for (var card=0, lenCards=cards.length; card<lenCards; card++) {
+        cards[card].onclick = function(){
+            this.classList.toggle("flip");
+            console.log(this.classList);
+        }
+    }
+    console.log(cards);
   }
 
 };
